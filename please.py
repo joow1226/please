@@ -27,7 +27,7 @@ plt.title('Step Response')
 plt.xlabel('Time [s]')
 plt.ylabel('Output')
 plt.grid(True)
-st.subheader("응답곡선")
+st.subheader("'unit step 응답곡선")
 st.pyplot(fig1)
 
 # 주파수 응답 계산
