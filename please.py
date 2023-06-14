@@ -13,6 +13,7 @@ sys_tf = control.TransferFunction(num, den)
 feedback_tf = control.feedback(sys_tf)
 
 # 폐루프 전달함수 출력
+st.title("201921034 김주원")
 st.subheader("폐루프 전달함수")
 st.text(feedback_tf)
 
